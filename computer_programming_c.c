@@ -98,6 +98,8 @@ void withdraw(int *x) {
     }
 }
 
+//deposite function
+
 void deposite(int *x) {
     int amount;
     authentication();
@@ -124,6 +126,8 @@ int authentication() {
     }
 }
 
+//chane pin number !
+
 void changePin() {
     printf("Please enter your current pin: ");
     scanf("%d", &tempPin);
@@ -136,4 +140,5 @@ void changePin() {
         printf("Contact your nearest bank branch\n");
     }
 }
+
 
